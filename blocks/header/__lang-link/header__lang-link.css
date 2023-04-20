@@ -1,8 +1,15 @@
-.header__lang-links {
-  display: flex;
-}
-
 .header__lang-link {
   text-decoration: none;
   color: #fff;
+  transition-duration: 1s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+}
+
+.header__lang-link:not(:last-child) {
+  margin: 0px 18px 0px 0px;
 }

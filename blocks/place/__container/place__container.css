@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__container {
-  min-width: 456px;
+    min-width: 456px;
 }
 }
 
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .place__container {
-   min-width: 352px;
+    min-width: 352px;
 }
 }
 
@@ -29,6 +29,6 @@
 @media screen and (max-width: 350px) {
   .place__container {
     min-width: 288px;
-  padding-left: 16px;
+    padding-left: 16px;
 }
 }

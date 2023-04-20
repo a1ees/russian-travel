@@ -3,19 +3,11 @@
   display: flex;
   justify-content: center;
   max-width: 1184px;
-  height: 720px;
   margin: 0px auto 92px auto;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    height: 640px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: 480px;
     margin-bottom: 88px;
   }
 }
@@ -23,6 +15,5 @@
 @media screen and (max-width: 320px) {
   .cover {
     margin-bottom: 64px;
-    height: 200px;
   }
 }
